@@ -5,11 +5,29 @@ Library to perform data validation, normalization and extraction.
 
 Uses only native JS functions for speed and low dependencies.
 
+Three functions:
+- validate
+- normalize
+- extract
+
+
 ## Testing
 
 node --experimental-vm-modules node_modules/.bin/jest
 
 ## How to use
+
+## Install
+```
+https://cdn.jsdelivr.net/gh/tactik8/krakenJsLibraryData@main/kraken_data/kraken_data.js
+
+import {krakenData} from 'https://cdn.jsdelivr.net/gh/tactik8/krakenJsLibraryData@main/kraken_data/kraken_data.js';
+
+let result = krakenData.validate.email('test@test.com')
+
+
+```
+
 
 ### Validate data
 ```
